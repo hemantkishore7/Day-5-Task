@@ -4,7 +4,7 @@ function isPalindrom(str){
    return str === str.split("").reverse().join("");
 }
 
-function getPalindrom(arr){
+let getPalindrom = function(arr){
     let palindrom =[];
     for(var i=0;i<arr.length;i++){
         if(isPalindrom(arr[i])){
