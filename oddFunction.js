@@ -1,7 +1,7 @@
 
 ////Anonymous Function 
 
-function oddNum(num){
+let oddNum = function(num){
     for (let i = 0;i<num.length; i++){
         if(num[i]%2!=0){
             console.log(num[i])
